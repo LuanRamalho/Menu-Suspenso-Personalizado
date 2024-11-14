@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Suspenso Personalizado</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="dropdown">
+      <button
+        id="dropdown-toggle"
+        class="dropdown-toggle"
+        onclick="toggleDropdown()"
+      >
+        Selecione uma opção
+      </button>
+      <div id="dropdown-menu" class="dropdown-menu">
+        <a href="#" class="dropdown-item" onclick="selectOption('Rio de Janeiro')">Rio de Janeiro</a>
+        <a href="#" class="dropdown-item" onclick="selectOption('Londres')">Londres</a>
+        <a href="#" class="dropdown-item" onclick="selectOption('Tóquio')">Tóquio</a>
+        <a href="#" class="dropdown-item" onclick="selectOption('Paris')">Paris</a>
+        <a href="#" class="dropdown-item" onclick="selectOption('Veneza')">Veneza</a>
+        <a href="#" class="dropdown-item" onclick="selectOption('São Paulo')">São Paulo</a>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
